@@ -17,7 +17,7 @@ saturn-ai/.env.*
 saturn-ai/saturn.db
 
 # Build output
- dist/
+dist/
 saturn-ai/dist/
 coverage/
 
