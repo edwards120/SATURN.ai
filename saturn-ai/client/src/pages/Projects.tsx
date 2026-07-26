@@ -165,7 +165,7 @@ function ProjectForm({ defaultValues, onSubmit, onCancel, isLoading }: {
           <FormField control={form.control} name="code" render={({ field }) => (
             <FormItem>
               <FormLabel className="text-xs text-[var(--saturn-muted)]">Project Code</FormLabel>
-              <FormControl><Input data-testid="input-project-code" placeholder="NED-0001" {...field} className="saturn-input" /></FormControl>
+              <FormControl><Input data-testid="input-project-code" placeholder="NED-0001" {...field} value={field.value ?? ''} className="saturn-input" /></FormControl>
               <FormMessage />
             </FormItem>
           )} />
